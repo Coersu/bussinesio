@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "CategoryID": 1,
+      "Category": "User Inputs",
+      "Event Name": "Enter Artwork Details",
+      "Trigger": "Artist inputs details about their artwork",
+      "Result": "Artwork details are stored for pricing calculation",
+      "Notes": "Details include hours spent, materials cost, and desired profit",
+      "Implemented": "No"
+    },
+    {
+      "CategoryID": 2,
+      "Category": "App Calculations",
+      "Event Name": "Calculate Suggested Price",
+      "Trigger": "All required artwork details are entered",
+      "Result": "App calculates and suggests a price for the artwork",
+      "Notes": "Calculation is based on user inputs, market data, and app logic",
+      "Implemented": "No"
+    },
+    {
+      "CategoryID": 3,
+      "Category": "Market Analysis",
+      "Event Name": "Fetch Market Data",
+      "Trigger": "Artist requests current market trends",
+      "Result": "App retrieves and displays latest market data for similar artworks",
+      "Notes": "Helps in adjusting the artwork price competitively",
+      "Implemented": "No"
+    },
+    {
+      "CategoryID": 4,
+      "Category": "Feedback Mechanisms",
+      "Event Name": "Display Pricing Feedback",
+      "Trigger": "Suggested price is calculated",
+      "Result": "App displays feedback and recommendations for price adjustment",
+      "Notes": "Feedback based on market analysis and pricing model",
+      "Implemented": "No"
+    },
+    {
+      "CategoryID": 5,
+      "Category": "User Progress Tracking",
+      "Event Name": "Update Sales Dashboard",
+      "Trigger": "Artwork is sold",
+      "Result": "Sales dashboard is updated with the latest sale information",
+      "Notes": "Tracks sales performance and pricing effectiveness",
+      "Implemented": "No"
+    },
+    {
+      "CategoryID": 6,
+      "Category": "Educational Content",
+      "Event Name": "Access Pricing Guide",
+      "Trigger": "Artist navigates to educational resources",
+      "Result": "Displays pricing strategies guide and market insights",
+      "Notes": "Provides valuable information for better pricing decisions",
+      "Implemented": "No"
+    },
+    
+    {
+      "CategoryID": 7,
+      "Category": "Integration Events",
+      "Event Name": "API Data Fetch",
+      "Trigger": "Request for real-time market data",
+      "Result": "Retrieves and processes data from online art marketplaces",
+      "Notes": "Ensures up-to-date market information for accurate pricing",
+      "Implemented": "No"
+    }
+  ]
+}

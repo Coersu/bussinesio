@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game Events Table</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <!-- Menu and Toggle Button -->
+        <div class="container" id="menu_section">
+            <nav class="top-menu">
+                <!-- Add menu items here -->
+                <a href="#" id="menu_story">Story</a>
+                <a href="#" id="menu_def">Definitions</a>
+                <a href="#" id="menu_evt_tbl">Table</a>
+            </nav>
+        </div>
+        <h1 class="pagetile">Art Pricing Application doc</h1>
+        <div id="cnt_story" class="container">
+            <h2 class="subtitle">App Story</h2>
+            <div class="category">
+             
+                
+             
+
+                <h2>1. Time Tracking and Cost Calculation</h2>
+                <p><strong>Input Method:</strong> Design a user-friendly interface for artists to input the number of
+                    hours spent on a piece. Consider options for tracking time in real-time or adding hours manually
+                    after completion.</p>
+                <p><strong>Costs Consideration:</strong> Allow artists to include other costs beyond time, such as
+                    materials used, studio rent, utilities, etc. These inputs will help in calculating the total cost of
+                    producing an artwork.</p>
+
+                <h2>2. Pricing Model</h2>
+                <p><strong>Hourly Rate Setting:</strong> Enable artists to set their hourly rates based on experience,
+                    skill level, and the art market's standards.</p>
+                <p><strong>Markup Calculation:</strong> Guide artists on setting a markup percentage. This should
+                    account for the art's value, the artist's reputation, and the target profit margin.</p>
+
+                <h2>3. Online Shops Enumeration</h2>
+                <p>You'd want to integrate or provide information on various platforms where artists can sell their
+                    work. Here are some popular online shops for art:</p>
+                <ul>
+                    <li>Etsy: Known for handmade and vintage items, including art.</li>
+                    <li>Saatchi Art: Focuses on selling original art globally.</li>
+                    <li>Artfinder: An online marketplace for independent artists.</li>
+                    <li>Society6: Offers artists a way to sell their art as prints and on various products.</li>
+                    <li>Redbubble: Similar to Society6, with a wide range of products.</li>
+                    <li>Fine Art America: Sells art prints and offers framing services.</li>
+                </ul>
+
+                <h2>4. Profit Margin Suggestions</h2>
+                <p><strong>Market Research Tool:</strong> Implement a feature that allows artists to research similar
+                    artworks on the mentioned platforms to suggest a competitive yet profitable price.</p>
+                <p><strong>Dynamic Pricing Suggestions:</strong> Based on the data collected (time, costs, platform
+                    fees), the application can suggest pricing strategies. Consider the following:</p>
+                <ul>
+                    <li><strong>Platform Fees:</strong> Each platform has its fee structure (listing fees, transaction
+                        fees, payment processing fees). Your app should account for these in the profit margin
+                        calculation.</li>
+                    <li><strong>Shipping Costs:</strong> For physical artworks, shipping can significantly affect profit
+                        margins. Provide options for including shipping in the price or as an additional cost to the
+                        buyer.</li>
+                    <li><strong>Taxes:</strong> Reminder for artists to consider how taxes might affect their overall
+                        profits.</li>
+                </ul>
+
+                <h2>5. Analytics and Reporting</h2>
+                <p><strong>Sales Tracking:</strong> Offer a way for artists to track their sales across different
+                    platforms to see where they are most successful.</p>
+                <p><strong>Profit Analysis:</strong> Provide analytics on profits after all expenses, offering insights
+                    into which pieces, styles, or platforms are the most profitable.</p>
+
+                <h2>6. User Education and Resources</h2>
+                <p><strong>Pricing Guides and Tips:</strong> Include resources on best practices for pricing artwork,
+                    considering factors like art medium, size, and the artist's reputation.</p>
+                <p><strong>Market Trends:</strong> Offer insights into current trends in the art market, which can help
+                    artists price their work more strategically.</p>
+
+                <h2>7. Technical Considerations</h2>
+                <p><strong>API Integrations:</strong> For real-time data on pricing and sales across platforms, consider
+                    integrating APIs from these online shops if available.</p>
+                <p><strong>Security and Privacy:</strong> Ensure the application is secure, especially concerning
+                    personal and financial information.</p>
+                <p><strong>User Interface:</strong> The application should be easy to navigate, with a clean design that
+                    allows artists to input information, view reports, and get pricing suggestions effortlessly.</p>
+
+                <h2>Development Steps</h2>
+                <ul>
+                    <li>Market Research: Understand the needs of freelance artists and the art market dynamics.</li>
+                    <li><strong class="title">MVP Development: Start with a basic version that includes a console app that integrates to an online shop API, asses the market, cost calculation, and
+                        basic pricing suggestions.</strong></li>
+                    <li>Feedback Loop: Gather feedback from early users to refine the application, add features, and
+                        improve user experience.</li>
+                    <li>Continuous Updates: Regularly update the application with new features, platform integrations,
+                        and market data to stay relevant.</li>
+                </ul>
+
+                <p>This project requires a blend of market research, software development, and a deep understanding of
+                    the art market.</p>
+                    <p> By addressing these components, we can create a valuable tool that helps freelance
+                    artists price their artwork effectively and maximize their profits by leveraging the power of A.I to do more with less.</p>
+
+            </div>
+
+
+        </div>
+        <div id="cnt_definitions" class="container">
+            <h2 class="subtitle">Type of Events</h2>
+
+        </div>
+
+        <div id="cnt_event_table" class="container">
+            <h2 class="subtitle">Game Events Table</h2>
+            <table id="eventsTable">
+                <tr>
+                    <th class="number-column">#</th>
+                    <th class="number-column">CaId</th>
+                    <th class="text-column">Category</th>
+                    <th class="text-column">Event Name</th>
+                    <th class="text-column">Trigger</th>
+                    <th class="text-column">Result</th>
+                    <th class="text-column">Notes</th>
+                    <th class="number-column">Ready</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+  {
+    "categories": [
+      {
+        "title": "User Inputs",
+        "definition": "Actions taken by artists to input data or make selections within the app.",
+        "focus": "Gathering detailed information about artwork, artist experience, and financial goals.",
+        "example": "\"Enter Artwork Details\" - Artists input hours spent, material costs, and desired earnings."
+      },
+      {
+        "title": "App Logic",
+        "definition": "The underlying algorithms and rules that drive the app's pricing recommendations and data analysis.",
+        "focus": "Applying the fundamental principles and methodologies for calculating art pricing, integrating market data, and personalizing suggestions based on artist inputs.",
+        "example": "\"Pricing Algorithm\" - Utilizes a complex algorithm that factors in artist experience, artwork time investment, material costs, and current market trends to suggest a competitive yet profitable price for the artwork."
+      },
+      {
+        "title": "App Responses",
+        "definition": "The system's reactions to player actions or other game events.",
+        "focus": "Providing feedback or consequences for player actions or specific game conditions.",
+        "example": "\"Game Over\" - Occurs when the player's health reaches zero, ending the game."
+      },
+      {
+        "title": "App Entities",
+        "definition": "Components within the app that possess unique attributes, functionalities, and statuses.",
+        "focus": "Defining and managing the diverse elements that users interact with or that play a role in the app's operation.",
+        "example": "\"Artwork Profile\" - An entity representing an individual artwork, which includes properties such as creation time, materials used, and desired sale price. Changes state based on user input or app analysis, like adjusting the sale price recommendation."
+      },
+      {
+        "title": "App Calculations",
+        "definition": "The app's processing of user inputs to generate pricing recommendations.",
+        "focus": "Analyzing input data to calculate a competitive price for artwork based on various factors.",
+        "example": "\"Price Calculation\" - Based on user inputs and market data, the app suggests a selling price."
+      },
+      {
+        "title": "Market Analysis",
+        "definition": "Events related to the app's analysis of current art market trends and platform data.",
+        "focus": "Providing artists with insights into pricing trends and competitive benchmarks.",
+        "example": "\"Fetch Market Data\" - The app retrieves and analyzes current selling prices and trends for similar artwork."
+      },
+      {
+        "title": "Feedback Mechanisms",
+        "definition": "The app's provision of feedback and suggestions based on the calculated pricing and market analysis.",
+        "focus": "Offering actionable insights and recommendations to help artists make informed pricing decisions.",
+        "example": "\"Suggested Adjustments\" - The app recommends adjustments to the pricing strategy based on market trends."
+      },
+      {
+        "title": "User Progress Tracking",
+        "definition": "Monitoring and displaying the artist's progress in terms of sales and pricing adjustments over time.",
+        "focus": "Helping artists see the impact of their pricing decisions on sales performance and profit margins.",
+        "example": "\"Sales Dashboard\" - A dashboard displays historical sales data, pricing changes, and profit trends."
+      },
+      {
+        "title": "Educational Content",
+        "definition": "The delivery of educational materials and resources within the app.",
+        "focus": "Providing artists with tutorials, guides, and tips on pricing art and understanding the art market.",
+        "example": "\"Pricing Strategies Guide\" - Access to articles and videos on effective pricing strategies and market insights."
+      },
+      {
+        "title": "Integration Events",
+        "definition": "Interactions between the app and external platforms or services, such as online art marketplaces.",
+        "focus": "Facilitating data exchange with art selling platforms for real-time market analysis and direct listing updates.",
+        "example": "\"API Data Fetch\" - Retrieving sales data and platform fees from online marketplaces via APIs."
+      }
+    ]
+  }
+  
